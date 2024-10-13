@@ -1,15 +1,17 @@
 {
-  "dependencies": {
-    "node-dht-sensor": "^0.4.3"
-  },
   "name": "medidor_temperatura_node",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "node-dht-sensor": "^0.4.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "pg": "^8.13.0"
+  }
 }
